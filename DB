@@ -1,0 +1,13 @@
+- Espresso: A distributed document store. Designed for online read/write traffic high QPS with balance of read/write operations. Member Campaign Info. (Apache Cassandra, MongoDB)
+- Venice: Distributed Key-Value Store optimized for derived data. Focus on the derived version of data. (Redis, Amazon DynamoDB)
+- Pinot: A real-time distributed OLAP store. Analytics and time-series query workloads that require low-latency, high-throughput processing. Analytics dashboard for Feed, Ads, Profile Views. (Apache Druid)
+- Ambry: Object storage system for unstructured data. To store Video or file (Amazon S3)
+- HDFS: Hadoop File system, offline file system. (HDFS)
+- MySQL and Oracle: For source of truth and transactional data ACID (MySQL)
+
+
+Processing Flow:
+Hive / HDFS Specifically using SQL query to read the data from HDFS
+Samza/Flink data processing
+API Layer
+
